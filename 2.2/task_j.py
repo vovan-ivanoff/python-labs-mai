@@ -1,5 +1,5 @@
 def task_j():
-    """задание j"""
+    """задание j: шифрование"""
     chislo = input()
     c = int(chislo[0])
     b = int(chislo[1])
