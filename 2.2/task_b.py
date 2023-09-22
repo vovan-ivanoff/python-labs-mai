@@ -5,7 +5,7 @@ def task_b():
     vasya = int(input())
     time_p = length / petya
     time_v = length / vasya
-    if time_p > time_v:
+    if time_p < time_v:
         print("Петя")
     else:
         print("Вася")

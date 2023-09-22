@@ -2,7 +2,7 @@ def task_a():
     """Просто здравствуй, просто как дела"""
     name = input()
     state = input()
-    print("Как вас зовут?")
+    print("Как Вас зовут?")
     print(f"Здравствуйте, {name}!")
     print("Как дела?")
     if state == "хорошо":

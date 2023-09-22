@@ -1,7 +1,8 @@
 def task_k():
     """задание k: Красота спасёт мир"""
-    (a, b, c) = list(input())
-    if int(a) + int(c) == 2 * int(b):
+    chislo = sorted(list(input()))
+    
+    if int(chislo[0]) + int(chislo[2]) == 2 * int(chislo[1]):
         print("YES")
     else:
         print("NO")

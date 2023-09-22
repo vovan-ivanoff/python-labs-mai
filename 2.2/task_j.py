@@ -8,7 +8,7 @@ def task_j():
     res.append(a + b)
     res.append(b + c)
     res.sort()
-    print(str(res[1])+str(res[0]))
+    print(str(res[1]) + str(res[0]))
 
 
 if __name__ == '__main__':

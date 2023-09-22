@@ -7,8 +7,7 @@ def task_n():
         minimus = chislo[1] + chislo[0]
     else:
         minimus = chislo[0] + chislo[1]
-    print(minimus)
-    print(maximus)
+    print(f"{minimus} {maximus}")
 
 
 if __name__ == '__main__':
