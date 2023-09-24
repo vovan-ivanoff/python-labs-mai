@@ -6,11 +6,8 @@ def task_t():
     m = int(input())
     k1 = int(input())
     k2 = int(input())
-    cena = m * n
-    for i in reversed(range(cena // k1)):
-        if (cena - i * k1) % k2 == 0 and i + (cena - i * k1) // k2 == n:
-            print(i, (cena - i * k1) // k2)
-            break
+    x = (n * (m - k2)) // (k1 - k2)
+    print(x, n - x)
 
 
 if __name__ == '__main__':
