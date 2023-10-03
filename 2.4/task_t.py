@@ -3,7 +3,7 @@ def task_t():
     n = int(input())
     best_degree = 0
     best_sum = -1
-    for d in range(2, 10):
+    for d in range(2, 11):
         num_another = ""
         copy_n = n
         while copy_n != 0:
