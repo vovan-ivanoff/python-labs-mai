@@ -6,7 +6,7 @@ def task_f():
 А за ними кот
 Задом наперёд.'''
     print({i: text.lower().count(i) for i in text.lower() if i.isalpha()})
-# {i: text.lower().count(i) for i in text.lower() if i.isalpha()})
+# {i: text.lower().count(i) for i in text.lower() if i.isalpha()}
 
 
 if __name__ == '__main__':
